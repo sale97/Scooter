@@ -1,0 +1,1337 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.containerr {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+b {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+header {
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 16px 1px rgba(0, 0, 0, 0.23);
+          box-shadow: 0px 5px 16px 1px rgba(0, 0, 0, 0.23);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 97px;
+}
+
+header .containerr a {
+  margin: 0;
+}
+
+header .img-header {
+  max-width: 51px;
+  max-height: 51px;
+  margin-top: 22px;
+}
+
+header .navigation {
+  margin-left: 17%;
+}
+
+header .navigation ul #menu-item-331 a {
+  padding-right: 0;
+  margin: 0;
+}
+
+header .navigation ul #menu-item-296 a {
+  padding-right: 0;
+  margin: 0;
+}
+
+header .navigation .newlook_header_menu {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 33px;
+}
+
+header .navigation .newlook_header_menu li a {
+  margin-right: 24px;
+}
+
+.current_page_item > a {
+  color: red;
+}
+
+a:hover {
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+header .mobile-nav-img {
+  display: none;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+/* Three-red-dots-right-fixed */
+.fixed-social {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 5px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* Iot-Controller-Page */
+.iot-background {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.iot-strana {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 10px;
+}
+
+.iot-strana b {
+  color: black;
+}
+
+.iot-strana .iot-mob {
+  display: none;
+}
+
+.iot-strana .iot-text {
+  text-align: right;
+  padding-left: 240px;
+}
+
+.iot-strana .iot-text p {
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 50px;
+}
+
+.iot-strana h5 {
+  color: red;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+.iot-strana h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+  padding-bottom: 20px;
+}
+
+.iot-strana .iot-img {
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.iot-strana .iot-img img {
+  margin-top: 190px;
+  height: 65%;
+  width: auto;
+}
+
+/* Mobile-App-and-server-Page */
+.pozadina-mobileapp {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.mobileapp {
+  display: block;
+  line-height: 10px;
+  text-align: right;
+  padding-left: 600px;
+}
+
+.mobileapp p {
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 150px;
+}
+
+.mobileapp p b {
+  color: black;
+}
+
+.mobileapp h5 {
+  color: red;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+.mobileapp h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+  padding-bottom: 20px;
+}
+
+.mobileapp img {
+  margin-top: 190px;
+  height: 65%;
+  width: auto;
+}
+
+.mob-slike {
+  display: block;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+.mob-slike .slika-desno {
+  margin-left: -17px;
+}
+
+.ride {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ride b {
+  color: black;
+}
+
+.ride h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+  padding-bottom: 10px;
+}
+
+.ride h5 {
+  color: red;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.ride h5 b {
+  color: red;
+}
+
+.ride p {
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.moblink {
+  padding-bottom: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 85px;
+}
+
+.moblink b {
+  color: black;
+}
+
+.moblink img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.moblink p {
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Home-Page-Landing */
+.home-1 {
+  background-image: url(../img/SLIKA-HOME-GORE_.png);
+  margin: 0 auto;
+  background-position: center;
+  height: 1049px;
+}
+
+.home-1 img {
+  margin-top: 130px;
+  max-width: 100%;
+}
+
+.home-1 p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  font-weight: lighter;
+  padding-left: 60%;
+  padding-right: 200px;
+  padding-top: 100px;
+  line-height: 30px;
+}
+
+b {
+  color: red;
+}
+
+/* Home-Page-Share */
+.share-txt {
+  margin-bottom: 90px;
+  text-align: left;
+  display: block;
+}
+
+.share-txt p b {
+  color: black;
+}
+
+.share-txt .mobile-text-share {
+  display: none;
+}
+
+.share-txt h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+  padding-bottom: 10px;
+}
+
+.share-txt h5 {
+  color: red;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.share-txt p {
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 750px;
+  margin: 0;
+}
+
+.share {
+  background-image: url(../img/PARALLAX_.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+}
+
+.share .share-img .share-img-mobile {
+  display: none;
+}
+
+.share .share-img img {
+  max-width: 100%;
+}
+
+/* Home-Page-Ride */
+.ridehome {
+  padding-top: 50px;
+  background-image: url(../img/CRVENA-PODLOGA-TELEFON.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ridehome h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+  padding-bottom: 10px;
+}
+
+.ridehome h5 {
+  color: red;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.ridehome p {
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ridehome .ride-text {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.ridehome .ride-text .ride-text-mob {
+  display: none;
+}
+
+.ridehome .ride-text h5 b {
+  color: white;
+}
+
+.ridehome .ride-text p b {
+  color: black;
+}
+
+.ridehome .ride-text h5 {
+  color: white;
+}
+
+.ride-img p {
+  padding-bottom: 20px;
+}
+
+.ride-img img {
+  padding-bottom: 20px;
+}
+
+/* Home-Page-Scooter-img */
+.scoter-slika {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.scoter-slika img {
+  padding-top: 100px;
+}
+
+.scoter-slika p {
+  padding-top: 90px;
+  font-size: 30px;
+  line-height: 30px;
+  max-width: 600px;
+  color: red;
+  font-weight: lighter;
+  margin: 0 auto;
+}
+
+/* Home-Page-Tri-text(Three text) */
+.tri-text-mob {
+  display: none;
+}
+
+.tri-text {
+  background-image: url(../img/Tri-text.png);
+  height: 920px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.tri-text div {
+  max-width: 20%;
+  margin: 0 auto;
+  padding-top: 730px;
+}
+
+.tri-text p {
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+  line-height: 25px;
+}
+
+.tri-text h5 {
+  font-size: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.tri-text .text-2 {
+  max-width: 18%;
+}
+
+.tri-text .text-3 {
+  text-align: right;
+}
+
+.tri-text .text-3 p {
+  color: black;
+}
+
+.tri-text .text-3 h5 {
+  color: black;
+}
+
+/* Home-Page-Posts-home */
+.postovi-home {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.postovi-home .postovi-home-1 {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.postovi-home .postovi-home-1 img {
+  padding-right: 15px;
+  width: 420px;
+}
+
+.postovi-home .postovi-home-1 .post-home1 {
+  margin: 0 auto;
+}
+
+.postovi-home .postovi-home-1 .post-home1 p {
+  display: none;
+}
+
+.postovi-home-2 {
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.postovi-home-2 .postovi-home-2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.postovi-home-2 .postovi-home-2 img {
+  padding-right: 15px;
+  width: 420px;
+}
+
+.postovi-home-2 .postovi-home-2 .post-home2 {
+  margin: 0 auto;
+}
+
+.postovi-home-2 .postovi-home-2 .post-home2 p {
+  display: none;
+}
+
+/* Home-Page-Care*/
+.care-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.care-home p {
+  color: red;
+  max-width: 25%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: lighter;
+  padding-top: 200px;
+  margin-left: 150px;
+}
+
+.care-home img {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.care-home {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.care-home .care-text {
+  text-align: right;
+  margin-right: 300px;
+  padding-top: 400px;
+}
+
+.care-home .care-text h5 {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.care-home .care-text h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+}
+
+.care-home .care-text p {
+  color: black;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.care-home .care-text p b {
+  color: black;
+}
+
+/* Home-Page-Video-Posts */
+.video-slike {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.video-slike .postovi-home-1 {
+  text-align: right;
+}
+
+.video-slike .postovi-home-1 .post-home1 img {
+  padding-right: 15px;
+}
+
+.video-slike .postovi-home-1 .post-home1 a {
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.video-slike .postovi-home-1 .post-home1 h5 {
+  padding-top: 10px;
+  margin-bottom: 5px;
+  max-width: 95%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.video-slike .postovi-home-1 .post-home1 p {
+  display: block;
+  max-width: 95%;
+  font-size: 20px;
+}
+
+.home-1 .footer-img-mob {
+  display: none;
+}
+
+/* Electric-scooter-Page */
+.elc-scoo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+}
+
+.elc-scoo .cont-elc {
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.elc-scoo .cont-elc img {
+  display: none;
+}
+
+.elc-scoo .cont-elc b {
+  color: black;
+}
+
+.elc-scoo p {
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 150px;
+}
+
+.elc-scoo h5 {
+  color: red;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+.elc-scoo h4 {
+  color: red;
+  padding-left: 60px;
+  font-size: 30px;
+}
+
+.elc-scoo h2 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 110px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.elc-scoo img {
+  padding-top: 50px;
+}
+
+.elc-postovi {
+  padding-top: 100px;
+}
+
+.pozadina-elc {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pozadina-elc .elc-scoo-2 {
+  display: none;
+}
+
+/* Mobile-only-divs */
+.elc-mob-slike {
+  display: none;
+}
+
+.postovi-home-mob {
+  display: none;
+}
+
+.care-home-mob {
+  display: none;
+}
+
+#menu-footer > .current_page_item > a {
+  color: red;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  height: 708px;
+  width: auto;
+  font-size: 20px;
+}
+
+footer .img-footer {
+  width: 185px;
+  height: 246px;
+  margin-top: 138px;
+}
+
+footer .containerr .right-footer .app {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 40%;
+}
+
+footer .containerr .right-footer .app img {
+  padding-bottom: 5px;
+}
+
+footer .containerr .footer-logo {
+  margin: 0 auto;
+}
+
+footer .containerr .copyright {
+  color: red;
+  margin-top: 234px;
+  font-size: 18px;
+}
+
+footer .containerr ul {
+  padding-top: 225px;
+  list-style: none;
+  max-width: 230px;
+}
+
+footer .containerr ul li {
+  padding-bottom: 20px;
+}
+
+.right-footer {
+  text-align: right;
+}
+
+.footer-2 {
+  display: none;
+}
+
+.menu-item-265 {
+  font-weight: bold;
+}
+
+.menu-item-274 {
+  font-weight: bold;
+}
+
+.slika-footer {
+  background-image: url(../img/SLIKA-FOOTERa.png);
+  height: 1018px;
+}
+
+.slika-footer .footer-img-mob {
+  display: none;
+}
+
+.slika-footer img {
+  width: 100%;
+  margin-top: 30%;
+}
+
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+*/
+@media (max-width: 1570px) {
+  header .navigation {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1118px) {
+  header .navigation .newlook_header_menu {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 970px) {
+  .containerr .img-header {
+    margin-left: 50px;
+  }
+  header .mobile-nav-img {
+    display: block;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+  header .mobile-nav-img button {
+    border-color: white !important;
+  }
+  header .mobile-nav-img .navbar-collapse ul {
+    list-style: none;
+  }
+  header .mobile-nav-img .navbar-collapse ul li {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+  }
+  header .mobile-nav-img .bg-light {
+    background-color: white !important;
+  }
+  header .navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 1610px) {
+  .img-header {
+    margin-left: 20px;
+  }
+  footer .containerr {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1220px) {
+  footer .containerr {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1026px) {
+  #footer-1 {
+    display: none;
+  }
+  .footer-2 {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-2 .bold-text {
+    font-weight: bold;
+  }
+  .footer-2 #menu-item-324 {
+    padding-top: 20px;
+  }
+  .footer-2 #menu-item-279 {
+    padding-top: 20px;
+  }
+  .footer-2 .socia img {
+    height: auto;
+    padding-right: 15px;
+  }
+  .footer-2 p {
+    font-size: 19px;
+    font-weight: 100;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .footer-2 .appi {
+    display: -ms-grid;
+    display: grid;
+    padding-top: 20px;
+  }
+  .footer-2 .appi a {
+    margin: 0 auto;
+  }
+  .footer-2 .appi img {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .footer-2 .copyright {
+    color: red;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .footer-2 ul {
+    list-style: none;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1510px) {
+  .iot-strana .iot-text {
+    padding-left: 20px;
+    padding-right: 120px;
+  }
+}
+
+@media (max-width: 1026px) {
+  .iot-mob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .iot-mob img {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+  }
+  .iot-strana {
+    background-position: center;
+    background-size: cover;
+  }
+  .iot-strana .iot-text {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  .iot-strana .iot-text p {
+    padding: 35px;
+  }
+  .iot-strana h2 {
+    font-size: 60px;
+  }
+  .iot-strana h5 {
+    padding: 31px;
+  }
+  .iot-strana .iot-img {
+    display: none;
+  }
+}
+
+@media (min-width: 1026px) {
+  .iot-mob {
+    display: none;
+  }
+}
+
+@media (min-width: 1026px) {
+  .pozadina-mobileapp .slika-mob {
+    display: none;
+  }
+}
+
+@media (max-width: 1510px) {
+  .pozadina-mobileapp .mobileapp {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 1026px) {
+  .pozadina-mobileapp {
+    background-position: center;
+    background-size: cover;
+  }
+  .pozadina-mobileapp .moblink {
+    padding-bottom: 100px;
+  }
+  .pozadina-mobileapp .moblink img {
+    padding-bottom: 150px;
+  }
+  .pozadina-mobileapp .mob-slike {
+    padding-top: 100px;
+  }
+  .pozadina-mobileapp .mob-slike img {
+    max-width: 145px;
+    margin: 0;
+  }
+  .pozadina-mobileapp .ride {
+    padding-top: 100px;
+  }
+  .pozadina-mobileapp .ride p {
+    padding-right: 15px;
+  }
+  .pozadina-mobileapp .slika-mob {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pozadina-mobileapp .mobileapp {
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: center;
+    padding: 0;
+  }
+  .pozadina-mobileapp .mobileapp b {
+    color: black;
+  }
+  .pozadina-mobileapp .mobileapp p {
+    padding: 20px;
+  }
+  .pozadina-mobileapp .mobileapp h2 {
+    padding-top: 50px;
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .pozadina-mobileapp .mobileapp h5 {
+    padding: 0;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1510px) {
+  .elc-mob-slike {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .elc-mob-slike .elc-dve-slike {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .elc-mob-slike .elc-dve-slike img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .pozadina-elc {
+    background-position: center;
+    background-size: cover;
+  }
+  .pozadina-elc .elc-scoo-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .pozadina-elc .elc-scoo-2 img {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .pozadina-elc .elc-scoo {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+  .pozadina-elc .elc-scoo .cont-elc img {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%;
+    height: auto;
+  }
+  .pozadina-elc .elc-scoo h5 {
+    padding-left: 0;
+  }
+  .pozadina-elc .elc-scoo p {
+    padding-left: 0;
+  }
+  .pozadina-elc .elc-scoo h4 {
+    padding-left: 0;
+  }
+  .pozadina-elc .elc-scoo img {
+    display: none;
+  }
+  .pozadina-elc .video-slike .postovi-home-1 .post-home1 img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1710px) {
+  .video-slike .postovi-home-1 .post-home1 img {
+    width: 350px;
+  }
+  .postovi-home-2 .postovi-home-2 .post-home2 img {
+    width: 350px;
+    padding-right: 10px;
+  }
+  .postovi-home .postovi-home-1 .post-home1 img {
+    width: 350px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1026px) {
+  .pozadina-elc .elc-scoo-2 {
+    display: none;
+  }
+  .fixed-social img {
+    max-width: 30px;
+  }
+  .pozadina-elc .elc-scoo .cont-elc h5 {
+    padding: 15px;
+  }
+  .pozadina-elc .elc-scoo .cont-elc img {
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .elc-mob-slike {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .elc-mob-slike .elc-jedna-slika {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .elc-mob-slike img {
+    max-width: 450px;
+    padding-top: 20px;
+  }
+  .pozadina-elc .cont-elc h2 {
+    padding-top: 50px;
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .pozadina-elc .cont-elc h5 {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+  .pozadina-elc .cont-elc p {
+    padding: 35px;
+  }
+  .pozadina-elc .video-slike {
+    display: none;
+  }
+  .pozadina-elc .video-slike .postovi-home-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1510px) {
+  .care-home {
+    display: none;
+  }
+  .postovi-home-2 {
+    display: none;
+  }
+  .postovi-home-mob {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .postovi-home-mob .postovi-home-1-mob {
+    display: block;
+  }
+  .postovi-home-mob .postovi-home-1-mob .post-home1 p {
+    display: none;
+  }
+  .postovi-home-mob .postovi-home-1-mob .post-home1 img {
+    max-width: 350px;
+    padding-top: 20px;
+  }
+  .postovi-home {
+    display: none;
+  }
+  .postovi-home .postovi-home-1 {
+    display: none;
+  }
+  .postovi-home .postovi-home-2 {
+    display: none;
+  }
+  .postovi-home .postovi-home-2 .postovi-home-2 {
+    display: none;
+  }
+  .postovi-home .postovi-home-2 .postovi-home-2 .post-home2 {
+    display: none;
+  }
+  .postovi-home .postovi-home-2 .postovi-home-2 .post-home2 img {
+    display: none;
+  }
+  .share .share-img .share-img-mobile {
+    display: none;
+  }
+  .share .share-txt {
+    text-align: center;
+  }
+  .share .share-txt p {
+    margin: 0 auto;
+  }
+  .page-wrap .home-1 p {
+    padding-left: 35%;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1026px) {
+  .slika-footer {
+    background-position: center top;
+    max-width: 100%;
+    max-height: 500px;
+  }
+  .slika-footer img {
+    display: none;
+  }
+  .slika-footer .footer-img-mob {
+    display: block;
+    padding-top: 300px;
+    width: 100%;
+  }
+  .care-home-mob {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .care-home-mob img {
+    max-width: 350px;
+  }
+  .care-home-mob .care-text h2 {
+    font-weight: bolder;
+    font-size: 130px;
+  }
+  .care-home-mob .care-text h5 {
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .care-home-mob .care-text p {
+    padding: 20px;
+  }
+  .care-home-mob .care-text p b {
+    color: black;
+  }
+  .tri-text {
+    display: none;
+  }
+  .tri-text-mob {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .tri-text-mob img {
+    max-width: 100%;
+  }
+  .tri-text-mob .scoter-slika .scooter-1 p {
+    padding: 20px;
+    font-size: 25px;
+  }
+  .tri-text-mob .scoter-slika .scooter-1 img {
+    max-width: 450px;
+    padding-bottom: 20px;
+  }
+  .tri-text-mob .ridehome {
+    background-position: right top;
+  }
+  .tri-text-mob .ridehome .ride-img p b {
+    color: black;
+  }
+  .tri-text-mob .ridehome .ride-img img {
+    max-width: 85%;
+    padding-bottom: 60px;
+  }
+  .tri-text-mob .ridehome .ride-text p {
+    display: none;
+  }
+  .tri-text-mob .ridehome .ride-text .ride-text-mob {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .tri-text-mob .page-wrap .share-img img {
+    display: none;
+  }
+  .tri-text-mob .page-wrap .share-img .share-img-mobile {
+    display: block;
+  }
+  .tri-text-mob .page-wrap .share-txt {
+    text-align: center;
+  }
+  .tri-text-mob .page-wrap .share-txt p {
+    display: none;
+    padding: 20px;
+  }
+  .tri-text-mob .page-wrap .share-txt b {
+    color: black;
+  }
+  .tri-text-mob .home-1 {
+    background-position: 35%;
+    background-repeat: no-repeat;
+  }
+  .tri-text-mob .home-1 img {
+    display: none;
+  }
+  .tri-text-mob .home-1 .footer-img-mob {
+    display: block;
+    width: 100%;
+  }
+  .tri-text-mob .home-1 p {
+    padding-left: 20%;
+    padding-top: 30px;
+    padding-right: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

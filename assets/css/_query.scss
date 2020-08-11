@@ -1,0 +1,720 @@
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+*/
+
+
+
+// Header-query -------------------------------
+@media (max-width: 1570px) {
+  header {
+    .navigation {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 1118px) {
+  header {
+    .navigation {
+      .newlook_header_menu {
+        font-size: 15px;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+
+
+// header mobile -----------
+@media (max-width: 970px) {
+  .containerr {
+    .img-header {
+      margin-left: 50px;
+    }
+  }
+
+  header {
+    .mobile-nav-img {
+
+      button {
+        border-color: white !important;
+      }
+
+      .navbar-collapse {
+        ul {
+          li {
+            font-size: 20px !important;
+            font-weight: 400 !important;
+          }
+
+          list-style: none;
+        }
+      }
+
+      .bg-light {
+        background-color: white !important;
+      }
+
+      display: block;
+      padding-right: 20px;
+      padding-top: 25px;
+    }
+
+    .navigation {
+      display: none;
+    }
+  }
+}
+
+
+
+// Footer-query -------------------------------
+@media (max-width: 1610px) {
+  .img-header {
+    margin-left: 20px;
+  }
+
+  footer {
+    .containerr {
+      max-width: 1200px;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  footer {
+    .containerr {
+      max-width: 1000px;
+    }
+  }
+}
+
+@media (max-width: 1026px) {
+  #footer-1 {
+    display: none;
+  }
+
+  .footer-2 {
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+
+    .bold-text {
+      font-weight: bold;
+    }
+
+    #menu-item-324 {
+      padding-top: 20px;
+    }
+
+    #menu-item-279 {
+      padding-top: 20px;
+    }
+
+    .socia {
+      img {
+        height: auto;
+        padding-right: 15px;
+      }
+    }
+
+    p {
+      font-size: 19px;
+      font-weight: 100;
+      max-width: 70%;
+      margin: 0 auto;
+    }
+
+    .appi {
+      a {
+        margin: 0 auto;
+      }
+
+      display: grid;
+      padding-top: 20px;
+
+      img {
+        width: 200px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .copyright {
+      color: red;
+      margin-top: 50px;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+
+    ul {
+      list-style: none;
+      text-align: center;
+      font-size: 19px;
+      font-weight: 100;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+// iot-controler---
+@media (max-width: 1510px) {
+  .iot-strana {
+    .iot-text {
+      padding-left: 20px;
+      padding-right: 120px;
+    }
+  }
+}
+
+@media (max-width: 1026px) {
+  .iot-mob {
+    display: flex;
+    margin: 0 auto;
+
+    img {
+      width: 300px;
+      margin: 0 auto;
+      padding-bottom: 150px;
+    }
+  }
+
+  .iot-strana {
+    background-position: center;
+    background-size: cover;
+
+    .iot-text {
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+
+      p {
+        padding: 35px;
+      }
+    }
+
+    h2 {
+      font-size: 60px;
+    }
+
+    h5 {
+      padding: 31px;
+    }
+
+    .iot-img {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 1026px) {
+  .iot-mob {
+    display: none;
+  }
+}
+
+@media (min-width: 1026px) {
+  .pozadina-mobileapp {
+    .slika-mob {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+// mobile-and-server
+
+@media (max-width: 1510px) {
+  .pozadina-mobileapp {
+    .mobileapp {
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+  }
+}
+
+
+@media (max-width: 1026px) {
+  .pozadina-mobileapp {
+    background-position: center;
+    background-size: cover;
+
+    .moblink {
+      img {
+        padding-bottom: 150px;
+      }
+
+      padding-bottom: 100px;
+    }
+
+    .mob-slike {
+      padding-top: 100px;
+
+      img {
+        max-width: 145px;
+        margin: 0;
+      }
+    }
+
+    .ride {
+      padding-top: 100px;
+      p{
+        padding-right: 15px;
+      }
+    }
+
+    .slika-mob {
+      padding-top: 50px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .mobileapp {
+      b {
+        color: black;
+      }
+
+      p {
+        padding: 20px;
+      }
+
+      h2 {
+        padding-top: 50px;
+        font-size: 60px;
+        line-height: 50px;
+      }
+
+      h5 {
+        padding: 0;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      margin: 0 auto;
+      padding-left: 20px;
+      text-align: center;
+      padding: 0;
+    }
+  }
+}
+
+
+
+
+
+
+
+// Electric-scooter
+
+@media (max-width: 1510px) {
+  .elc-mob-slike{
+    .elc-dve-slike{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      img{
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+    }
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .pozadina-elc {
+    background-position: center;
+    background-size: cover;
+    .elc-scoo-2{
+      display: flex;
+      img{
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+
+    .elc-scoo {
+      .cont-elc {
+        img {
+          display: none;
+          margin: 0 auto;
+          text-align: center;
+          max-width: 90%;
+          height: auto;
+        }
+      }
+
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 100px;
+
+      h5 {
+        padding-left: 0;
+
+      }
+
+      p {
+        padding-left: 0;
+      }
+
+      h4 {
+        padding-left: 0;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    .video-slike {
+      .postovi-home-1 {
+        .post-home1 {
+          img {
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1710px){
+  .video-slike{
+    .postovi-home-1{
+      .post-home1{
+        img{
+          width: 350px;
+        }
+      }
+    }
+  }
+
+  .postovi-home-2{
+    .postovi-home-2{
+      .post-home2{
+        img{
+          width: 350px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+
+
+.postovi-home{
+  .postovi-home-1{
+    .post-home1{
+      img{
+        width: 350px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+}
+
+
+
+@media (max-width: 1026px) {
+  .pozadina-elc{
+    .elc-scoo-2{
+      display: none;
+    }
+  }
+  .fixed-social {
+    img {
+      max-width: 30px;
+    }
+  }
+
+  .pozadina-elc {
+    .elc-scoo {
+      .cont-elc {
+        h5{
+          padding: 15px;
+        }
+        img {
+          margin: 0 auto;
+          text-align: center;
+          display: flex;
+        }
+
+      }
+    }
+  }
+
+  .elc-mob-slike {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+    .elc-jedna-slika {
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+
+    img {
+      max-width: 450px;
+      padding-top: 20px;
+    }
+  }
+
+  .pozadina-elc {
+    .cont-elc {
+      h2 {
+        padding-top: 50px;
+        font-size: 60px;
+        line-height: 50px;
+      }
+
+      h5 {
+        padding: 0;
+        padding-bottom: 50px;
+      }
+
+      p {
+        padding: 35px;
+      }
+    }
+
+    .video-slike {
+      display: none;
+
+      .postovi-home-1 {
+        display: none;
+      }
+    }
+  }
+}
+
+
+
+
+
+//Home-page
+
+@media (max-width: 1510px) {
+  .care-home{
+    display: none;
+  }
+  .postovi-home-2{
+    display: none;
+  }
+  .postovi-home-mob{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    .postovi-home-1-mob{
+      display: block;
+      .post-home1{
+        p{
+          display: none;
+        }
+        img{
+          max-width: 350px;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+  .postovi-home{
+    display: none;
+    .postovi-home-1{
+      display: none;
+    }
+    .postovi-home-2{
+      display: none;
+      .postovi-home-2{
+        display: none;
+        .post-home2{
+          display: none;
+          img{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .share{
+    .share-img{
+      .share-img-mobile{
+        display: none;
+      }
+    }
+    .share-txt{
+      text-align: center;
+      p{
+        margin: 0 auto;
+      }
+    }
+  }
+  .page-wrap {
+    .home-1 {
+      p {
+        padding-left: 35%;
+        padding-right: 50px
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1026px) {
+  .slika-footer{
+    img{
+      display: none;
+    }
+    .footer-img-mob{
+      display: block;
+      padding-top: 300px;
+      width: 100%;
+    }
+    background-position: center top;
+    max-width: 100%;
+    max-height: 500px;
+  }
+  .care-home-mob{
+    img{
+      max-width: 350px;
+    }
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    .care-text{
+      h2{
+        font-weight: bolder;
+        font-size: 130px;
+      }
+      h5{
+        color: red;
+        font-weight: bold;
+        font-size: 35px;
+      }
+      p{
+        padding: 20px;
+        b{
+          color: black;
+        }
+      }
+    }
+  }
+.tri-text{
+  display: none;
+}
+.tri-text-mob{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  img{
+    max-width: 100%;
+  }
+
+  .scoter-slika{
+    .scooter-1{
+      p{
+        padding: 20px;
+        font-size: 25px;
+      }
+      img{
+        max-width: 450px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .ridehome{
+    background-position: right top;
+    .ride-img{
+      p{
+        b{
+          color: black;
+        }
+      }
+      img{
+        max-width: 85%;
+        padding-bottom: 60px;
+      }
+    }
+    .ride-text{
+      p{
+        display: none;
+      }
+      .ride-text-mob{
+        display: block;
+        padding-bottom: 30px;
+      }
+    }
+  }
+  .page-wrap {
+    .share-img {
+
+      img {
+        display: none;
+      }
+
+      .share-img-mobile {
+        display: block;
+      }
+    }
+
+    .share-txt {
+      text-align: center;
+
+      p {
+        display: none;
+        padding: 20px;
+      }
+ 
+        b {
+          color: black;
+        }
+      }
+    }
+
+    .home-1 {
+      img {
+        display: none;
+      }
+      .footer-img-mob{
+        display: block;
+        width: 100%;
+      }
+
+      background-position:35%;
+      background-repeat: no-repeat;
+
+      p {
+        padding-left: 20%;
+        padding-top: 30px;
+        padding-right: 50px
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+$opensans: "Open Sans", sans-serif;
+
+#menu-footer > .current_page_item > a {
+  color: red;
+}
+
+
+footer{
+  font-family: $opensans;
+  height: 708px;
+  width: auto;
+  font-size: 20px;
+  .img-footer{
+    width: 185px;
+    height: 246px;
+    margin-top: 138px;
+  }
+}
+
+
+
+footer{
+  .containerr{
+    .right-footer{
+      .app{
+        img{
+          padding-bottom: 5px;
+        }
+        display: grid;
+        margin-left: 40%;
+      }
+    }
+    .footer-logo{
+      margin: 0 auto;
+    }
+    .copyright{
+      color: red;
+      margin-top: 234px;
+      font-size: 18px;
+    }
+    ul{
+      padding-top: 225px;
+      list-style: none;
+      max-width: 230px;
+      li{
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+
+
+.right-footer{
+  text-align: right;
+}
+
+.footer-2{
+  display: none;
+}
+
+.menu-item-265{
+  font-weight: bold;
+}
+.menu-item-274{
+  font-weight: bold;
+}
+
+.slika-footer {
+  .footer-img-mob {
+    display: none;
+  }
+
+  background-image: url(../img/SLIKA-FOOTERa.png);
+  height: 1018px;
+
+  img {
+    width: 100%;
+    margin-top: 30%;
+  }
+}

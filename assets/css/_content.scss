@@ -1,0 +1,729 @@
+$opensans: "Open Sans",
+sans-serif;
+
+.container {
+  max-width: 1500px;
+}
+
+
+/* Three-red-dots-right-fixed */
+.fixed-social {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+/* Iot-Controller-Page */
+
+.iot-background{
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.iot-strana {
+  b {
+    color: black;
+  }
+
+  .iot-mob {
+    display: none;
+  }
+
+  display: flex;
+  line-height: 10px;
+  
+
+  .iot-text {
+    text-align: right;
+    padding-left: 240px;
+
+    p {
+      font-size: 20px;
+      line-height: 20px;
+      padding-left: 50px;
+    }
+  }
+
+  h5 {
+    color: red;
+    padding-bottom: 20px;
+    padding-left: 60px;
+  }
+
+  h2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-bottom: 20px;
+  }
+
+  .iot-img {
+    text-align: center;
+    padding-bottom: 90px;
+
+    img {
+      margin-top: 190px;
+      height: 65%;
+      width: auto;
+    }
+  }
+}
+
+
+
+
+
+
+
+/* Mobile-App-and-server-Page */
+
+.pozadina-mobileapp {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+}
+
+.mobileapp {
+  display: block;
+  line-height: 10px;
+  text-align: right;
+  padding-left: 600px;
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 150px;
+
+    b {
+      color: black;
+    }
+  }
+
+  h5 {
+    color: red;
+    padding-bottom: 20px;
+    padding-left: 60px;
+  }
+
+  h2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-bottom: 20px;
+  }
+
+  img {
+    margin-top: 190px;
+    height: 65%;
+    width: auto;
+  }
+}
+
+.mob-slike {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+
+  .slika-desno {
+    margin-left: -17px;
+  }
+}
+
+.ride {
+  text-align: center;
+  margin: 0 auto;
+
+  b {
+    color: black;
+  }
+
+  h2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-bottom: 10px;
+  }
+
+  h5 {
+    color: red;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+
+    b {
+      color: red;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.moblink {
+  padding-bottom: 200px;
+
+  b {
+    color: black;
+  }
+
+  img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 85px;
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+/* Home-Page-Landing */
+
+.home-1 {
+  background-image: url(../img/SLIKA-HOME-GORE_.png);
+  margin: 0 auto;
+  background-position: center;
+  height: 1049px;
+
+  img {
+    margin-top: 130px;
+    max-width: 100%;
+  }
+
+  p {
+    font-family: $opensans;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    font-weight: lighter;
+    padding-left: 60%;
+    padding-right: 200px;
+    padding-top: 100px;
+    line-height: 30px;
+  }
+}
+
+b {
+  color: red;
+}
+
+
+
+
+
+
+
+/* Home-Page-Share */
+
+.share-txt {
+  margin-bottom: 90px;
+  text-align: left;
+  display: block;
+
+  p {
+    b {
+      color: black;
+    }
+  }
+
+  .mobile-text-share {
+    display: none;
+  }
+
+  h2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-bottom: 10px;
+  }
+
+  h5 {
+    color: red;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 750px;
+    margin: 0;
+
+  }
+}
+
+.share {
+  background-image: url(../img/PARALLAX_.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+
+  .share-img {
+    .share-img-mobile {
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+/* Home-Page-Ride */
+
+.ridehome {
+  padding-top: 50px;
+  background-image: url(../img/CRVENA-PODLOGA-TELEFON.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-bottom: 10px;
+  }
+
+  h5 {
+    color: red;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ride-text {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    .ride-text-mob {
+      display: none;
+    }
+
+    h5 {
+      b {
+        color: white;
+      }
+    }
+
+    p {
+      b {
+        color: black;
+      }
+    }
+
+    h5 {
+      color: white;
+    }
+  }
+}
+
+.ride-img {
+  p {
+    padding-bottom: 20px;
+  }
+
+  img {
+    padding-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+/* Home-Page-Scooter-img */
+
+.scoter-slika {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+  text-align: center;
+  padding-bottom: 120px;
+
+  img {
+    padding-top: 100px;
+  }
+
+  p {
+    padding-top: 90px;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 600px;
+    color: red;
+    font-weight: lighter;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+/* Home-Page-Tri-text(Three text) */
+
+.tri-text-mob {
+  display: none;
+}
+
+.tri-text {
+  background-image: url(../img/Tri-text.png);
+  height: 920px;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 120px;
+  padding-right: 120px;
+
+
+  div {
+    max-width: 20%;
+    margin: 0 auto;
+    padding-top: 730px;
+  }
+
+  p {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    line-height: 25px;
+  }
+
+  h5 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .text-2 {
+    max-width: 18%;
+  }
+
+  .text-3 {
+    text-align: right;
+
+    p {
+      color: black;
+    }
+
+    h5 {
+      color: black;
+    }
+  }
+}
+
+
+
+
+
+
+
+/* Home-Page-Posts-home */
+
+.postovi-home {
+  margin: 0 auto;
+  padding-top: 30px;
+
+  .postovi-home-1 {
+    img {
+      padding-right: 15px;
+      width: 420px;
+    }
+
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 0;
+
+    .post-home1 {
+      margin: 0 auto;
+
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+.postovi-home-2 {
+  margin: 0 auto;
+  padding-top: 5px;
+
+  .postovi-home-2 {
+    img {
+      padding-right: 15px;
+      width: 420px;
+    }
+
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 0;
+
+    .post-home2 {
+      margin: 0 auto;
+
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+/* Home-Page-Care*/
+
+.care-home {
+  display: flex;
+
+  p {
+    color: red;
+    max-width: 25%;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: lighter;
+    padding-top: 200px;
+    margin-left: 150px;
+  }
+
+  img {
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+}
+
+.care-home {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .care-text {
+    text-align: right;
+    margin-right: 300px;
+    padding-top: 400px;
+
+    h5 {
+      color: red;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 130px;
+      font-weight: 800;
+      line-height: 110px;
+    }
+
+    p {
+      color: black;
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 25px;
+
+      b {
+        color: black;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+/* Home-Page-Video-Posts */
+
+.video-slike {
+  padding-top: 5px;
+  padding-bottom: 50px;
+
+  .postovi-home-1 {
+    text-align: right;
+
+    .post-home1 {
+      img {
+        padding-right: 15px;
+      }
+
+      a {
+        font-size: 15px;
+        font-weight: 500;
+        padding-right: 20px;
+      }
+
+      h5 {
+        padding-top: 10px;
+        margin-bottom: 5px;
+        max-width: 95%;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      p {
+        display: block;
+        max-width: 95%;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.home-1 {
+  .footer-img-mob {
+    display: none;
+  }
+}
+
+
+
+
+/* Electric-scooter-Page */
+
+.elc-scoo {
+  display: flex;
+  text-align: right;
+
+  .cont-elc {
+    img {
+      display: none;
+    }
+
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    b {
+      color: black;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 150px;
+  }
+
+  h5 {
+    color: red;
+    padding-bottom: 20px;
+    padding-left: 60px;
+  }
+
+  h4 {
+    color: red;
+    padding-left: 60px;
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+
+  img {
+    padding-top: 50px;
+  }
+}
+
+.elc-postovi {
+  padding-top: 100px;
+}
+
+.pozadina-elc {
+  background-image: url(../img/SCOO-PARALLAX.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .elc-scoo-2 {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+/* Mobile-only-divs */
+
+.elc-mob-slike {
+  display: none;
+}
+
+.postovi-home-mob {
+  display: none;
+}
+
+.care-home-mob {
+  display: none;
+}
